@@ -7,7 +7,7 @@
   --bg-color: #000028;
   --accent-color: #ff0070;
   --focus-color: #DB00FF;
-  --font-family : 'IBM Plex Mono';
+  --font-family : 'IBM Plex Mono', sans-serif;
   --font-size: 18px;
   --line-height: 23.4px;
   --header-text-color: #000028;
@@ -18,3 +18,22 @@
   --title-paragraph-bg-color: #FF0070;
   --text-paragraph-color: #F1B2CE;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url("/images/cover-image-dark.png");
+    --bg-color: #000028;
+    --accent-color: #ff0070;
+    --focus-color: #DB00FF;
+    --font-family : 'IBM Plex Mono', sans-serif;
+    --font-size: 18px;
+    --line-height: 23.4px;
+    --header-text-color: #000028;
+    --decor-color: #ff0070;
+    --section-title-color: #FF0070;
+    --section-title-bg-color: transparent;
+    --title-paragraph-color: #000028;
+    --title-paragraph-bg-color: #FF0070;
+    --text-paragraph-color: #F1B2CE;
+  }
+}  

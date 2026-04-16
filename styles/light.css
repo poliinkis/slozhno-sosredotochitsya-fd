@@ -3,7 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -13,7 +12,7 @@
   --bg-color: #FFF1F7;
   --accent-color: #FF8DCB;
   --focus-color: #FFC2E6;
-  --font-family : 'IBM Plex Mono';
+  --font-family : 'IBM Plex Mono', sans-serif;
   --font-size: 18px;
   --line-height: 23.4px;
   --header-text-color: #353430;
@@ -27,4 +26,28 @@
 
 :root.theme-light .header-rec {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url("/images/cover-image-light.png");
+    --bg-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --focus-color: #FFC2E6;
+    --font-family : 'IBM Plex Mono', sans-serif;
+    --font-size: 18px;
+    --line-height: 23.4px;
+    --header-text-color: #353430;
+    --decor-color: #353430;
+    --section-title-color: #353430;
+    --section-title-bg-color: transparent;
+    --title-paragraph-color: #353430;
+    --title-paragraph-bg-color: #FF8DCB;
+    --text-paragraph-color: #353430;
+  }
+
+  :root .header-rec {
+    display: none;
+  }
+  
 }
