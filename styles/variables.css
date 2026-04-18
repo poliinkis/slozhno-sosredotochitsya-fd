@@ -19,7 +19,7 @@
   --text-paragraph-color: #F1B2CE;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --bg-image: url("/images/cover-image-dark.png");
     --bg-color: #000028;
@@ -35,5 +35,9 @@
     --title-paragraph-color: #000028;
     --title-paragraph-bg-color: #FF0070;
     --text-paragraph-color: #F1B2CE;
+  }
+
+  :root .header-rec {
+    display: flex;
   }
 }  

@@ -24,3 +24,7 @@
   --title-paragraph-bg-color: #FF0070;
   --text-paragraph-color: #F1B2CE;
 }
+
+:root.theme-dark .header-rec {
+  display: flex;
+}
