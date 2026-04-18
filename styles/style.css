@@ -351,13 +351,6 @@
     /*margin-bottom: 0;*/
   }
 
-  .container__section-title {
-    grid-column: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-
   .container__title-paragraph {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -374,6 +367,7 @@
   */
 
   .section-container {
+    grid-column: 1;
     gap: 0px;
     margin-top: 60px;
     grid-template-columns: 1fr;
@@ -381,7 +375,6 @@
 
   .section-title {
     max-width: 236px;
-    margin-bottom: 0px;
   }
 
   .text-paragraph {
@@ -397,7 +390,7 @@
   }
 
   .add-title-paragraph {
-    margin-top: 10px !important;
+    margin-top: 20px !important;
   }
 
   .title-paragraph {
@@ -546,6 +539,7 @@
 
   .section-title {
     max-width: 315px;
+    margin-bottom: 0px;
   }
 
   .section-title-container {
